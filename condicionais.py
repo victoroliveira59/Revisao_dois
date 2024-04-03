@@ -18,3 +18,10 @@ def par_ou_impar():
 
 par_ou_impar()
 
+def nota_aprovacao():
+    nota1 = float(input('Digite a nota: '))
+    if nota1 >= 7:
+        print("Aprovado")
+    else: print("Reprovado")
+
+nota_aprovacao()
